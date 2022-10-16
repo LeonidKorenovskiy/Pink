@@ -1,0 +1,145 @@
+.page-body{
+  position: relative;
+}
+
+.main-header{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+z-index: 100;
+width: 100%;
+max-width: 1200px;
+
+}
+
+.logo-positione{
+  padding: 0 20px;
+  @media (min-width: $desktop-width){
+    padding: 0 130px;
+  }
+}
+
+.logo-desktop{
+  padding-top: 20px;
+  @media (min-width: $tablet-width){
+    padding-top: 0;
+  }
+
+}
+
+.logo-tablet,.logo-desktop{
+  display: none;
+}
+
+@media (max-width: $mobile-width ){
+  .main-header{
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+}
+
+@media (min-width: $tablet-width){
+  .logo-mobile{
+    display: none;
+  }
+
+  .logo-tablet{
+    display: block;
+  }
+  .logo-desktop{
+    display: none;
+  }
+  .main-header{
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+  }
+}
+
+@media (min-width: $desktop-width){
+  .logo-mobile{
+    display: none;
+  }
+
+  .logo-tablet{
+    display: none;
+  }
+  .logo-desktop{
+    display: block;
+    height: 40px;
+
+  }
+  .main-header{
+    height: 110px;
+    padding: 0;
+  }
+
+}
+
+.button-menu{
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 25px;
+}
+
+@media (min-width: $desktop-width){
+  .button-menu{
+    display: none;
+  }
+}
+
+.button-menu--open{
+  background-color: transparent;
+  background-image: url(../../img/openbtn.svg);
+  border: none;
+  width: 30px;
+  height: 25px;
+  background-repeat: no-repeat;
+}
+
+.button-menu--close{
+  position: relative;
+  background-color: transparent;
+
+  border: none;
+  width: 30px;
+  height: 25px;
+
+
+}
+
+.button-menu--close::before{
+  content:"";
+  position:absolute;
+  width: 23px;
+  height: 3px;
+  background-color: white;
+  top: 0;
+  left:0;
+  transform: rotate(45deg);
+
+}
+.button-menu--close::after{
+  content:"";
+  position:absolute;
+  width: 23px;
+  height: 3px;
+  background-color: white;
+  top: 0;
+  left:0;
+  transform: rotate(-45deg);
+}
+.logo-positione{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header-wrapper{
+  @media (min-width: $desktop-width){
+  display: flex;
+ align-items: center;
+
+}
+
+}

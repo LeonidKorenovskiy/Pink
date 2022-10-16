@@ -1,0 +1,122 @@
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #F2F2F2;
+}
+
+.catalog-cards {
+  text-align: center;
+  color: #283645;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  @media (min-width: $desktop-width){
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card--height {
+  @media (min-width: $tablet-width) {
+    width: auto;
+    height: 455px;
+  }
+}
+
+
+
+/* Mobile Версия */
+.unero {
+  width: auto;
+  text-align: start;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  @include font-normal();
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645
+
+}
+
+.card__heading {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-left: 0;
+  @include font-bold();
+  font-size: 14px;
+  line-height: 24px;
+
+}
+
+.card__text {
+  padding: 0;
+  margin: 0;
+}
+
+.card__time {
+  @include font-light;
+  font-size: 12px;
+  line-height: 24px;
+
+
+}
+
+.card__like {
+  color: #D22856;
+  @include font-normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.card__like {
+  margin: 0 10px;
+
+}
+
+.card-img {
+  display: block;
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+
+    height: 300px;
+  }
+}
+
+.card__likes {
+
+  padding-bottom: 20px;
+}
+
+.catalog-cards__slogan {
+  display: block;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    text-align: center;
+    line-height: 30px;
+    size: 18px;
+  }
+}
+
+.catalog-cards__slogan{
+  @include font-normal();
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+
+  }
+}

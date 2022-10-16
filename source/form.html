@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/180.png">
+  <link rel="manifest" href="webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-body">
+  <header class="main-header main-header-wrapper">
+
+
+    <div class="logo-positione">
+        <img  class="logo-mobile" src="img/buttonpink.svg">
+        <img class="logo-tablet" src="img/logotype-white-tablet.svg">
+        <img class="logo-desktop" src="img/logotype-white-desktop.svg" width="150px" height="47px" >
+          <button class="button-menu button-menu--open" type="button"></button>
+    </div>
+
+ <nav class="nav ">
+  <ul class="nav__list list-nav list-nav-acrive">
+    <li class="list-nav__item"><a href="http://localhost:3000/#">Главная</a></li>
+    <li class="list-nav__item"><a href="http://localhost:3000/catalog.html">Фотографии</a></li>
+    <li class="list-nav__item"><a href="http://localhost:3000/form.html">контур</a></li>
+
+
+  </ul>
+</nav>
+
+
+
+  </header>
+
+  <main class="main">
+
+    <section class="competition">
+
+      <h1 class="competition__heading" >Конкурс на самое <br>
+        безбашенное
+        путешествие с Пинк</h1>
+        <h2 class="competition__subtitle" >Поделитесь своей историей и получите шанс выиграть
+          ценный приз — 1000 миль на вашу бонусную карту!
+           <span class="competition-tablet">Пожалуйста, заполните форму ниже:</span></h2>
+    </section>
+
+    <section class="main-form">
+
+      <form class="form">
+
+        <fieldset class="full-name-form">
+        <label class="full-name-label" for="" class="">фамилия:</label>
+
+        <input class="full-name-input" id="" name="" type="" class=" " placeholder="Укажите фамилию *">
+
+        <label class="full-name-label label-name" for="" class="">имя:</label>
+        <input class="full-name-input" id="" name="" type="" class=" " placeholder="Введите ваше имя *">
+
+        <label class="full-name-label" for="" class="">отчество:</label>
+        <input class="full-name-input" id="" name="" type="" class=" " placeholder="Ну и отчество тоже">
+        </fieldset>
+
+
+    <fieldset class="main-form__gadget gadget-fieldset" >
+      <legend class="gadget-fieldset__legend">С каким приложением путешествовали?</legend>
+          <input id="gadget-ios" name="gadget" class="visually-hidden   gadget-input" type="radio"  checked>
+         <label for="gadget-ios" class="gadget-label" >Pink для iOS</label>
+         <input id="gadget-android" name="gadget" type="radio" class="visually-hidden  gadget-input" checked>
+         <label for="gadget-android" class="gadget-label">Pink на Android</label>
+         <input id="gadget-windows"name="gadget" type="radio" class="visually-hidden gadget-input" checked>
+         <label for="gadget-windows" class="gadget-label">Windows Phone</label>
+
+        </fieldset>
+
+
+<fieldset class="form-contacts">
+  <legend class="form-legend-tablet"> контактная информация</legend>
+  <label class="full-name-label full-name-label--tel" for="" class="">НОМЕР ТЕЛЕФОНА</label>
+        <input class="full-name-input full-name-input--tel" id="" name="" type="" class=" " placeholder="Номер, пожалуйста" >
+
+        <label class="full-name-label full-name-label--mail" for="" class="">АДРЕС ПОЧТЫ:</label>
+        <input class="full-name-input full-name-input--mail" id="" name="" type="" class=" " placeholder="Введите почту *">
+
+      </fieldset>
+
+
+
+
+      <fieldset class="form-checkbox">
+        <legend class="form-checkbox__legend">Ваши безбашенные достижения в путешествии</legend>
+      <ul class="form-checkbox__list">
+        <li>
+     <input id="filter-shark" name="shark" type="checkbox"
+     class="visually-hidden input" checked>
+    <label class="label" for="filter-shark">Сделал селфи с акулой
+    </label>
+            </li>
+         <li>
+   <input type="checkbox" id="filter-beach" name="beach"
+   class="visually-hidden input">
+    <label class="label" for="filter-beach">Обгорел на пляже
+    </label>
+        </li>
+         <li>
+    <input type="checkbox" id="filter-noris" name="noris"
+    class="visually-hidden input" checked>
+    <label class="label" for="filter-noris">Видел Чака Норриса
+    </label>
+        </li>
+        <li>
+    <input type="checkbox" id="filter-souvenirs" name="souvenirs"
+    class="visually-hidden input" checked>
+    <label class="label" for="filter-souvenirs">Накупил сувениров
+    </label>
+             </li>
+          <li>
+       <input id="filter-tower" name="tower" type="checkbox"
+        class="visually-hidden input" >
+       <label class="label" for="filter-tower">Удержал башню
+        </label>
+          </li>
+        <li>
+    <input id="filter-hotel" name="hotel" type="checkbox"
+    class="visually-hidden input" >
+    <label class="label" for="filter-hotel">Разгромил отель
+    </label>
+            </li>
+
+    </ul>
+
+  </fieldset>
+
+
+
+
+
+    <fieldset class="main-form__emotions">
+      <legend class="main-form__emotions-name">ОПИШИТЕ СВОИ ЭМОЦИИ</legend>
+<textarea class="form-tiket" type="text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+</fieldset>
+
+
+
+</form>
+<div class="wrapper-button">
+<button  href="#" class="button-form">Отправить форму</button>
+<p class="form__small-text">* — обязательные поля</p>
+</div>
+</section>
+
+  </main>
+  <footer class="footer">
+    <p class="footer-logo">
+      <svg width="145" height="45" viewBox="0 0 145 45" alt="">
+        <use xlink:href="img/sprite.svg#logotype-blue-tablet"></use>
+      </svg>
+        </p>
+        <p class="social">
+          <a href="#">
+            <svg width="54" height="54" viewBox="0 0 54 54" alt="">
+              <use xlink:href="img/sprite.svg#Group11"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="54" height="54" viewBox="0 0 54 54" alt="">
+              <use xlink:href="img/sprite.svg#Group12"></use>
+            </svg>
+            </a>
+
+          <a href="#">
+            <svg width="54" height="54" viewBox="0 0 54 54" alt="">
+              <use xlink:href="img/sprite.svg#Group13"></use>
+            </svg>
+            </a>
+
+        </p>
+        <p class="footer__me">By Leoinid Korenovskiy</p>
+
+  </footer>
+  <script src="./js/menu.min.js"></script>
+</body>
+</html>

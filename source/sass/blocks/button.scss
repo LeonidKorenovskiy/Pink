@@ -1,0 +1,62 @@
+.button{
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  border-radius: 29px;
+  padding: 15px 38px;
+  @include font-bold();
+  font-size: 18px;
+line-height: 18px;
+@media (min-width: $tablet-width){
+  padding: 15px 48px;
+}
+@media (min-width: $desktop-width){
+  padding: 15px 32px;
+}
+}
+
+
+.button--catalog{
+  background-color: transparent;
+  border: 3px solid #D22856;
+  color: #D22856;
+  min-width: 280px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.button--catalog:active {
+  border-color: gray;
+  color: gray;
+  opacity: 80%;
+
+}
+
+.button--catalog-desctop{
+  @media (min-width: $desktop-width){
+  background-color: transparent;
+  border: 3px solid #D22856;
+  color: #D22856;
+  min-width: 183px;
+  margin: 0 auto;
+
+
+}
+}
+
+
+.button-form{
+  background-color: #2AAB6D;
+  border: 0;
+  color: white;
+  min-width: 183px;
+  margin: 0 auto;
+  width: 259px;
+  height: 59px;
+  border-radius: 5px;
+
+
+  @include font-bold();
+  font-size: 18px;
+  line-height: 30px;
+}

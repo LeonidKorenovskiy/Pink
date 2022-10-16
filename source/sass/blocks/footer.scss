@@ -1,0 +1,53 @@
+
+.footer{
+  text-align: center;
+  color: transparent;
+  padding-top:15px ;
+  padding-bottom: 15px;
+}
+
+.social a{
+ padding-left: 5px;
+ padding-right: 5px;
+color: transparent;
+}
+
+@media (min-width: $tablet-width){
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+
+
+}
+.html-cademy{
+  text-align: end;
+  padding-right: 15px;
+}
+.social{
+  text-align: center;
+}
+
+.social a{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.footer-logo{
+padding-left: 15px;
+}
+
+
+ }
+
+.footer{
+
+  @media (min-width: $desktop-width){
+    margin-top: 40px;
+  }
+}
+
+.footer__me{
+  color: $black;
+  @include font-light();
+  font-size: 24px;
+  line-height: 30px;
+}

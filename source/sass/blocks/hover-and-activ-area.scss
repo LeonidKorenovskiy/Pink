@@ -1,0 +1,32 @@
+.list-nav__item a:hover{
+  border-bottom: 1px solid white;
+
+}
+
+.list-nav__item a:active{
+  color: #D22856;
+  border-bottom: 1px solid #D22856;
+}
+
+.button--hover:hover{
+  background-color: white;
+  color:#D22856 ;
+}
+
+.button--hover:active{
+ opacity: 60%;;
+}
+
+.button--hover:active{
+  background-color: white;
+
+}
+
+.button-form:hover{
+  background-color: #1C9B5E;
+ }
+
+ .button-form:active{
+  opacity:60%;
+ }
+
